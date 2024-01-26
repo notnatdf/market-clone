@@ -57,3 +57,17 @@ main {
   right: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+@keyframes icons-둥-둥 {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.footer-icons__img {
+  width: 30px;
+  animation: 1s icons-둥-둥 infinite;
+}
